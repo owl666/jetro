@@ -1,0 +1,247 @@
+/* font-family: "Bebas"; */
+@font-face {
+	font-family: "Bebas";
+	src: url("../fonts/bebas/BebasNeueRegular.otf");
+	font-style: normal;
+	font-weight: 400;
+}
+@font-face {
+	font-family: "Bebas";
+	src: url("../fonts/bebas/BebasNeueBold.otf");
+	font-style: normal;
+	font-weight: 600;
+}
+img {
+	width: 100%;
+}
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.container {
+	background: #fff;
+}
+[class*="col-"] {
+	margin-bottom: 17px;
+}
+
+/* Header Nav */
+
+.navbar {
+	margin-bottom: 0;
+	border: none;
+	z-index: 1;
+	font-family: "Bebas", Arial, Helvetica, sans-serif;
+	font-weight: 600;
+	position: relative;
+}
+.navbar:after {
+	content: '';
+	width: 100%;
+	top: 100%;
+	background: #f3af9d;
+	height: 60px;
+	position: absolute;
+}
+.navbar-default .navbar-brand {
+	color: #e8603c;
+	text-transform: uppercase;
+	font-size: 36px;
+}
+.navbar-default .navbar-brand .jt-logo-style {
+	color: #f3af9d;
+}
+.navbar-nav>li {
+	padding-left: 28px;
+}
+.navbar-nav>li>a {
+	text-transform: uppercase;
+	padding: 0;
+	line-height: 78px;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+.navbar-collapse {
+	padding-right: 0;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+	color: #e8603c;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+	background: transparent;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #f3af9d;
+}
+.navbar-default .navbar-toggle {
+	border: none;
+}
+
+/* Slider */
+
+.jt-slider {
+	padding-bottom: 40px;
+}
+.jt-slider .container {
+	z-index: 2;
+	position: relative;
+}
+.carousel {
+	margin-bottom: 17px;
+}
+.carousel-caption {
+	background: rgba(232, 96, 60, 0.7);
+	left: 5%;
+	bottom: 10%;
+	right: auto;
+	top: auto;
+	text-align: left;
+	max-width: 410px;
+	padding: 25px 20px;
+	text-shadow: none;
+}
+.carousel-caption h2 {
+	font-family: "Bebas", Arial, Helvetica, sans-serif;
+	margin: 0;
+	margin-bottom: 20px;
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+.carousel-caption p {
+	font-size: 12px;
+}
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
+	width: 100%;
+}
+
+/* Features Section */
+.jt-features {
+	padding-bottom: 45px;
+}
+.jt-features .glyphicon {
+	font-size: 48px;
+	line-height: 1;
+	color: #e8603c;
+	float: left;
+}
+.jt-features h3 {
+	padding-left: 70px;
+	min-height: 46px;
+}
+.jt-features h3,
+.jt-works h3 {
+	color: #e8603c;
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	line-height: 1.3;
+	margin: 0;
+	text-transform: uppercase;
+	font-family: "Bebas", Arial, Helvetica, sans-serif;
+}
+.jt-features p {
+	padding-top: 35px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+.jt-features [class*="col-"] {
+	padding-right: 35px;
+}
+.jt-button-more {
+	color: #fff;
+	display: block;
+	background: #e8603c;
+	font-size: 16px;
+	padding: 10px 12px;
+	max-width: 54px;
+	font-family: "Bebas", Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	border: 1px solid #e8603c;
+	box-sizing: border-box;
+	transition: color .5s, background .5s;
+}
+.jt-button-more:hover {
+	text-decoration: none;
+	color: #e8603c;
+	background: #fff;
+}
+
+/* Recent Works Section */
+.jt-works {
+	padding-bottom: 33px;
+}
+.jt-works-header {
+	background: url('../img/header-bg.png');
+	height: 19px;
+	margin-bottom: 25px;
+}
+.jt-works-header h3 {
+	padding: 0 20px 0 5px;
+	background: #fff;
+	display: inline;
+}
+.jt-works-desc {
+	border: 1px solid #dbdbdb;
+	border-top: none;
+	padding: 13px 0 14px 14px;
+}
+.jt-works-desc h3 {
+	color: #b8b8b8;
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+.jt-works-date {
+	color: #e8603c;
+	font-family: "Bebas", Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	letter-spacing: 1px;
+	margin-bottom: 0;
+}
+
+/* Footer section */
+.jt-footer {
+	background: #f3af9d;
+}
+.jt-footer .container {
+
+}
+.jt-footer .container .row {
+	background: #e8603c;
+	padding: 40px 40px 17px 35px;
+	margin-left: 0;
+	margin-right: 0;
+}
+.jt-footer h2 {
+	color: #fff;
+	text-transform: uppercase;
+	font-family: "Bebas", Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	margin: 0;
+	margin-bottom: 25px;
+}
+.jt-footer p {
+	color: #fff;
+}
+.jt-footer [class*="col-"] {
+	padding-right: 60px;
+}
+.jt-twitter-name,
+p.jt-twitter-time {
+	color: #f3b29d;
+}
+p.jt-twitter-time {
+	margin-bottom: 20px;
+}
+.jt-footer-socials {
+	margin-top: 20px;
+}
+.jt-footer-socials img {
+	display: inline-block;
+	max-width: 30px;
+	margin-right: 5px;
+}

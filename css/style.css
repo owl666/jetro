@@ -53,16 +53,20 @@ body {
 .navbar-nav>li {
 	padding-left: 28px;
 }
-.navbar-nav>li>a {
+.navbar .navbar-nav>li>a {
 	text-transform: uppercase;
 	padding: 0;
 	line-height: 78px;
 	font-size: 16px;
 	letter-spacing: 1px;
 }
-.navbar-collapse {
-	padding-right: 0;
+
+@media (min-width: 768px) {
+	.navbar-collapse {
+		padding-right: 0;
+	}
 }
+
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
 	color: #e8603c;

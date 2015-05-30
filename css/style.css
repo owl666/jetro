@@ -206,6 +206,9 @@ h3.jt-aside-header {
 .jt-aside-section.jt-aside-gallery .row {
 	margin: 0;
 }
+.jt-aside-gallery img {
+	width: 100%;
+}
 
 .jt-aside-section [class*="col-"] {
 	margin-bottom: 5px;

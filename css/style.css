@@ -1,10 +1,15 @@
 /* font-family: "Bebas"; */
 @font-face {
 	font-family: "Bebas";
-	src: url("../fonts/bebas/BebasNeueRegular.otf");
-	font-style: normal;
+	src: url("../fonts/bebas/BEBAS.eot");
+	src: url('../fonts/bebas/BEBAS.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/bebas/BEBAS.woff') format('woff'),
+	url('../fonts/bebas/BEBAS.ttf') format('truetype'),
+	url('../fonts/bebas/BEBAS.svg#bebasregular') format('svg');
 	font-weight: 400;
+	font-style: normal;
 }
+
 @font-face {
 	font-family: "Bebas";
 	src: url("../fonts/bebas/BebasNeueBold.otf");
@@ -48,8 +53,8 @@ blockquote {
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Bebas", Arial, Helvetica, sans-serif;
 	margin: 0 0 20px;
-	font-weight: 600;
-	letter-spacing: 1px;
+	font-weight: 400;
+	word-spacing: 3px;
 	color: #e8603c;
 }
 .container {
@@ -61,11 +66,16 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Header Nav */
 
+.navbar-brand {
+	padding: 0 10px;
+	line-height: 85px;
+}
+
 .navbar {
 	margin-bottom: 0;
 	border: none;
 	font-family: "Bebas", Arial, Helvetica, sans-serif;
-	font-weight: 600;
+	font-weight: 400;
 	position: relative;
 }
 .navbar:after {
@@ -93,7 +103,7 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 0;
 	line-height: 78px;
 	font-size: 16px;
-	letter-spacing: 1px;
+	word-spacing: 3px;
 }
 
 @media (min-width: 768px) {
@@ -134,12 +144,15 @@ h1, h2, h3, h4, h5, h6 {
 	background: #e8603c;
 	font-size: 24px;
 	color: #fff;
-	line-height: 60px;
+	line-height: 2.7;
+	height: 60px;
 	padding-left: 20px;
 }
 
 /* Main Page */
-
+.jt-main-page iframe {
+	padding-bottom: 26px;
+}
 .jt-main-page .col-xs-12.col-sm-9{
 	padding-right: 50px;
 }
@@ -205,6 +218,7 @@ h3.jt-aside-header {
 	padding: 0 18px 0 0;
 	background: #fff;
 	font-size: 16px;
+	line-height: 1.1;
 }
 .jt-aside-section.jt-aside-gallery .row {
 	margin: 0;
@@ -334,10 +348,10 @@ h3.jt-aside-header {
 }
 .jt-features .btn {
 	background: #e8603c;
-	font-size: 16px;
+	font-size: 12px;
 	font-family: "Bebas", Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
-	letter-spacing: 1px;
+	word-spacing: 3px;
 	border: 1px solid #e8603c;
 	box-sizing: border-box;
 	transition: color .5s, background .5s;
@@ -355,6 +369,7 @@ h3.jt-aside-header {
 h3.jt-works-header {
 	background: url('../img/header-bg.png') 50% 50% repeat-x;
 	margin-bottom: 25px;
+	line-height: 1;
 }
 .jt-works-header-span {
 	padding: 0 20px 0 5px;
@@ -370,12 +385,13 @@ h3.jt-works-header {
 	margin: 0;
 	padding: 0;
 	display: block;
+	font-size: 16px;
 }
 .jt-works-date {
 	color: #e8603c;
 	font-family: "Bebas", Arial, Helvetica, sans-serif;
 	font-size: 11px;
-	letter-spacing: 1px;
+	word-spacing: 3px;
 	margin-bottom: 0;
 }
 .jt-works img {
@@ -558,11 +574,11 @@ p.jt-twitter-time {
 	border: none;
 	width: 26px;
 	height: 26px;
-	line-height: 26px;
+	line-height: 31px;
 	text-align: center;
 	margin-right: 5px;
 	font-family: "Bebas", Arial, Helvetica, sans-serif;
-	font-size: 18px;
+	font-size: 14px;
 	padding: 0;
 }
 .pagination>li>a:hover,
@@ -579,4 +595,150 @@ p.jt-twitter-time {
 .pagination .disabled {
 	background: #f3b29d;
 	color: #fff;
+}
+
+/* Contact Us */
+.jt-text-red {
+	color: #e8603c;
+}
+.jt-form {
+	padding-right: 10px;
+}
+.jt-form-field {
+	border: 1px solid #e8603c;
+	color: #e8603c;
+	padding: 10px 13px;
+	font: 12px "Bebas", Arial, Helvetica, sans-serif;
+	line-height: 2.3;
+	margin-bottom: 10px;
+}
+.jt-form input {
+	margin-left: 10px;
+	width: 45%;
+	display: block;
+}
+input[type="text"]::-webkit-input-placeholder{
+	color: #e8603c;
+}
+input[type="text"]::-moz-placeholder {
+	color: #e8603c;
+}
+input[type="text"]:-ms-input-placeholder {
+	 color: #e8603c;
+}
+input[type="email"]::-webkit-input-placeholder {
+	color: #e8603c;
+}
+input[type="email"]::-moz-placeholder {
+	color: #e8603c;
+}
+input[type="email"]:-ms-input-placeholder {
+	color: #e8603c;
+}
+textarea {
+	width: 100%;
+	margin-left: 10px;
+	padding-right: 10px;
+}
+textarea::-webkit-input-placeholder {
+	color:#e8603c !important;
+}
+textarea::-moz-placeholder {
+	color:#e8603c !important;
+}
+textarea:-ms-input-placeholder {
+	color:#e8603c !important;
+}
+.jt-form [class*="col-"] {
+	margin-bottom: 0;
+}
+.jt-form .btn {
+	background: #e8603c;
+	font-size: 12px;
+	font-family: "Bebas", Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	word-spacing: 3px;
+	border: 1px solid #e8603c;
+	box-sizing: border-box;
+	transition: color .5s, background .5s;
+	margin-left: 10px;
+}
+.jt-form .btn:hover {
+	text-decoration: none;
+	color: #e8603c;
+	background: #fff;
+}
+
+/* Portfolio Section */
+
+.jt-portfolio [class*="col-"] {
+	margin-bottom: 45px;
+}
+
+.jt-main-page .jt-works-desc p {
+	margin-bottom: 0;
+	margin-top: 3px;
+}
+.jt-portfolio-item {
+	position: relative;
+	display: block;
+}
+.jt-portfolio-desc {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.85);
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	visibility: hidden;
+	cursor: pointer;
+
+}
+.jt-portfolio-item:hover .jt-portfolio-desc {
+	transition: visibility .5s;
+}
+.jt-portfolio-item:hover .jt-portfolio-desc,
+.jt-portfolio-item:hover .jt-portfolio-see-more {
+	visibility: visible;
+}
+.jt-portfolio-see-more {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	visibility: hidden;
+	cursor: pointer;
+	background: url('../img/works/plus.png') 50% 50% no-repeat;
+	opacity: .7;
+}
+.jt-portfolio-filters {
+	margin-bottom: 36px;
+	margin-top: 12px;
+	list-style: none;
+	padding: 0;
+}
+.jt-portfolio-filters li {
+	display: inline-block;
+	margin: 0;
+	margin-right: 5px;
+}
+.jt-portfolio-filters .jt-filter-active a {
+	background: #e8603c;
+	color: #fff;
+}
+.jt-portfolio-filters a {
+	font-size: 14px;
+	font-family: "Bebas", Arial, Helvetica, sans-serif;
+	color: #BFB9B9;
+	padding: 10px;
+	padding-bottom: 8px;
+	transition: color .5s, background .5s;
+}
+.jt-portfolio-filters a:hover {
+	background: #e8603c;
+	color: #fff;
+	text-decoration: none;
 }

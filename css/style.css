@@ -614,8 +614,14 @@ p.jt-twitter-time {
 }
 .jt-form input {
 	margin-left: 10px;
-	width: 45%;
+	width: 100%;
 	display: block;
+}
+@media (min-width: 768px) {
+	.jt-form input {
+		margin-left: 10px;
+		width: 65%;
+	}
 }
 input[type="text"]::-webkit-input-placeholder{
 	color: #e8603c;
@@ -682,6 +688,9 @@ textarea:-ms-input-placeholder {
 .jt-portfolio-item {
 	position: relative;
 	display: block;
+}
+.jt-portfolio-item img {
+	width: 100%;
 }
 .jt-portfolio-desc {
 	position: absolute;

@@ -378,7 +378,9 @@ h3.jt-works-header {
 	letter-spacing: 1px;
 	margin-bottom: 0;
 }
-
+.jt-works img {
+	width: 100%;
+}
 /* Footer section */
 .jt-footer {
 	background: #f3af9d;

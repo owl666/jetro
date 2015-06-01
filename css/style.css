@@ -327,6 +327,20 @@ h3.jt-aside-header {
 	fill: #e8663c;
 	float: left;
 }
+.jt-ie8-icon {
+    float: left;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+.jt-icon-cog {
+    background-image: url('../img/cog.png');
+}
+.jt-icon-ok {
+    background-image: url('../img/ok.png');
+}
+.jt-icon-user {
+    background-image: url('../img/user.png');
+}
 .jt-features h3 {
 	padding-left: 70px;
 	min-height: 46px;

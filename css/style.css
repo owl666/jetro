@@ -331,6 +331,8 @@ h3.jt-aside-header {
     float: left;
     background-position: 50% 50%;
     background-repeat: no-repeat;
+    width: 46px;
+    height: 46px;
 }
 .jt-icon-cog {
     background-image: url('../img/cog.png');

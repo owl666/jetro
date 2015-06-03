@@ -382,15 +382,18 @@ h3.jt-aside-header {
 .jt-works {
 	padding-bottom: 33px;
 }
-h3.jt-works-header {
+h3.jt-works-header,
+h3.jt-related-items {
 	background: url('../img/header-bg.png') 50% 50% repeat-x;
 	margin-bottom: 25px;
 	line-height: 1;
 }
-.jt-works-header-span {
+.jt-works-header-span,
+.jt-related-items-span {
 	padding: 0 20px 0 5px;
 	background: #fff;
 }
+
 .jt-works-desc {
 	border: 1px solid #dbdbdb;
 	border-top: none;
@@ -766,4 +769,17 @@ textarea:-ms-input-placeholder {
 	background: #e8603c;
 	color: #fff;
 	text-decoration: none;
+}
+
+/* Portfolio Items Big */
+.jt-portfolio-item-big img {
+    width: 100%;
+    margin-bottom: 24px;
+}
+.jt-portfolio-item-big {
+    margin-bottom: 50px;
+}
+.jt-related-items-span {
+    padding-left: 0;
+    padding-right: 16px;
 }

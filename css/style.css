@@ -583,7 +583,9 @@ p.jt-twitter-time {
 	background-position: 50% 40%;
 	background-repeat: no-repeat;
 }
-
+.jt-blog-text>img {
+    width: 100%;
+}
 /* Pagination */
 .pagination {
 	margin: 0;
